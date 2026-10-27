@@ -1,0 +1,13 @@
+# ===== Datos =====
+# Los datos no se suben al repositorio: pesan mucho y en un proyecto
+# real pueden ser confidenciales. Se suben las instrucciones para obtenerlos.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===== Sistema operativo =====
+.DS_Store
+
+# ===== Archivos temporales de Office =====
+~$*
